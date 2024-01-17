@@ -32,22 +32,26 @@ All event files, for all tasks, have the following cols: `onset_time`, `duration
 
 
 For the DOTS and VOE event files from Experiment 1, we have the additional columns: 
+
 - `experimentName` ('DotsSocPhys' or 'VOESocPhys')
 - `correct`: at the end of the trial, subs made a response. In DOTS, they indicated whether the dot that disappeared reappeared at a plausible location. In VOE, they pressed a button when the fixation appeared as a cross rather than a plus sign. This col indicates whether the sub responded correctly (1/0)
 - `stim_path`: path to the stimuli, relative to the root BIDS directory, i.e. `BIDS/stimuli/DOTS/xxxx`
 
 For the DOTS event files from Experiment 2, we have the additional columns:
+
 - `participant`: redundant with the file name
 - `experiment_name`: name of the task, redundant with file name
 - `block_order`: which order the dots trials happened in (1 or 2)
 - `prop_correct`: the proportion of correct responses over the entire run
 
 For the Motion event files from Experiment 2,  we have the additional columns:
+
 - `experiment_name`: name of the task, redundant with file name
 - `block_order`: which order the dots trials happened in (1 or 2)
 - `event`: the index of the current event (0-22)
 
 For the spWM event files from Experiment 2, we have the additional columns:
+
 - `experiment_name`: name of the task, redundant with file name
 - `participant`: redundant with the file name
 - `block_order`: which order the dots trials happened in (1 or 2)
@@ -55,6 +59,7 @@ For the spWM event files from Experiment 2, we have the additional columns:
 - `run_accuracy_easy`: the proportion of correct responses for the easy trials in this run
 
 For the VOE event files from Experiment 2, we have the additional columns:
+
 - `trial_type_specific`: identifies trials at one more level of granularity, with respect to domain task and event (e.g. psychology_efficiency_unexp)
 - `trial_type_morespecific`: similar to `trial_type_specific` but includes information about domain task scenario and event (e.g. psychology_efficiency_trial-15-over_unexp)
 - `experiment_name`: name of the task, redundant with file name
