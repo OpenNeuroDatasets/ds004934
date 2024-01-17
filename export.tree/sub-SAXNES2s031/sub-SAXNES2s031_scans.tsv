@@ -1,0 +1,12 @@
+filename	acq_time	operator	randstr	MotionExclusion	MeanFD	RepeatSubjectExclusion	OtherExclusion	OtherExclusionReason
+anat/sub-SAXNES2s031_T1w.nii.gz	2000-01-01T00:00:00	shari	c13d48df	False	n/a	False	False	n/a
+func/sub-SAXNES2s031_task-VOE_run-001_bold.nii.gz	2000-01-01T00:00:01	shari	1c2dfca6	False	0.0868630189923444	False	False	n/a
+func/sub-SAXNES2s031_task-spWM_run-001_bold.nii.gz	2000-01-01T00:00:02	shari	6231e876	False	0.0761838883318385	False	False	n/a
+func/sub-SAXNES2s031_task-VOE_run-002_bold.nii.gz	2000-01-01T00:00:03	shari	2e8428b4	False	0.0859399800095693	False	False	n/a
+func/sub-SAXNES2s031_task-DOTS_run-001_bold.nii.gz	2000-01-01T00:00:04	shari	2541cd55	False	0.0856391762523076	False	False	n/a
+func/sub-SAXNES2s031_task-Motion_run-001_bold.nii.gz	2000-01-01T00:00:05	shari	8d12229b	False	0.0833295370808823	False	False	n/a
+func/sub-SAXNES2s031_task-VOE_run-003_bold.nii.gz	2000-01-01T00:00:06	shari	fe2aa7bf	False	0.0994747024832535	False	False	n/a
+func/sub-SAXNES2s031_task-spWM_run-002_bold.nii.gz	2000-01-01T00:00:07	shari	1ff758e1	False	0.0783942647688026	False	False	n/a
+func/sub-SAXNES2s031_task-VOE_run-004_bold.nii.gz	2000-01-01T00:00:08	shari	ffb0b73a	False	0.1035466893043062	False	False	n/a
+func/sub-SAXNES2s031_task-DOTS_run-002_bold.nii.gz	2000-01-01T00:00:09	shari	4cad5f5c	False	0.0774641005668015	False	False	n/a
+func/sub-SAXNES2s031_task-Motion_run-002_bold.nii.gz	2000-01-01T00:00:10	shari	390cf91b	False	0.0761070025672058	False	False	n/a
